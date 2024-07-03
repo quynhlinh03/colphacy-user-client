@@ -1,0 +1,13 @@
+.receiver-ctn {
+  background: #fff;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 1rem;
+  :hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+}
+.receiver-text {
+  color: $gray700;
+}

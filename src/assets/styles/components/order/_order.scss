@@ -1,0 +1,42 @@
+.order-image {
+  font-weight: bold;
+}
+.order-text-unvisible {
+  color: #ebf2f2;
+}
+
+.order-form {
+  background-color: white;
+  border-radius: 10px;
+  height: fit-content;
+  position: sticky;
+  padding: 15px;
+}
+.fee-shipment {
+  color: #2b9e02;
+}
+.order-icon {
+  margin-right: 0.5rem;
+  color: #0093af;
+}
+
+.type-address {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+.default-address{
+  background-color: #ebf2f2;
+  color: #0093af;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.order-modal{
+  background: #0093af;
+  height: 100vh;
+}
+.btn-modal{
+    position: static;
+    bottom: 0;
+}

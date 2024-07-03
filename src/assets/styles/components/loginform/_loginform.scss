@@ -1,0 +1,62 @@
+.login-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: $cobaltBlue;
+  padding: 0.5rem;
+}
+
+.sub-title {
+  padding: 0 2.6rem;
+  font-weight: 300;
+  padding: 0 2.6rem 0.6rem;
+}
+
+.forgotPass-ctn {
+  display: flex;
+  padding: 0 2.8rem 0.8rem;
+  justify-content: space-between;
+  margin-top: -10px;
+  a {
+    color: $munsellBlue;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.signin-title {
+  font-weight: 400;
+  p {
+    color: $munsellBlue;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+// INPUT MANTINE
+// .mantine-153sls4 {
+//   text-align: left;
+//   font-weight: 400;
+//   padding: 0.7rem 0;
+//   width: 20rem;
+//   margin: auto;
+// }
+.controller{
+  text-align: left;
+  font-weight: 400;
+  padding: 0.7rem 0;
+  width: 20rem;
+  margin: auto;
+}
+// .mantine-a5k5aj {
+//   height: 2.5rem !important;
+// }
+
+// .mantine-1fzet7j {
+//   display: inline-block;
+//   font-size: 0.875rem;
+//   font-weight: 400;
+// }
+
+// .mantine-marsgz {
+//   height: 2.5rem !important;
+// }

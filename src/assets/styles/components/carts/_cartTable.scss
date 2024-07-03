@@ -1,0 +1,27 @@
+.card-table tr th td,
+.td-group {
+  display: inline-flex;
+}
+.td-group img {
+  padding: 0 0.5em 0 0.5em;
+}
+
+.delete-button {
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: red;
+    cursor: pointer;
+  }
+}
+.card-table span {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.card-table {
+  background-color: white;
+  border-radius: 10px;
+}
+.card-table tr th label{
+  font-size: 0.875rem;
+}

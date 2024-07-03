@@ -1,0 +1,52 @@
+.advert {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem 1rem;
+  justify-content: center;
+  .ad-right {
+    display: grid;
+    .ad-below {
+      display: flex;
+      justify-content: space-between;
+      .card {
+        border-radius: 8px;
+        border: 1px solid #f0f0f0;
+        background: #fff;
+        width: 9rem;
+        .content {
+          background-color: #fff;
+          margin: unset;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.best-seller-product {
+  margin: 1rem auto;
+  .title {
+    margin: 3rem 0;
+  }
+}
+.list-product {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2rem 2.5rem;
+  justify-content: center;
+}
+.read-more {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #0093af;
+  font-weight: 500;
+  justify-content: center;
+  cursor: pointer;
+  padding: 1rem;
+
+  .icondown {
+    margin-right: 0.5rem;
+  }
+}

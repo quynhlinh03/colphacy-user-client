@@ -1,0 +1,11 @@
+.buttoncomp-ctn {
+  width: 100%;
+  max-width: 20rem;
+  height: 2.55rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 1.5rem auto 1.2rem;
+  &:hover {
+    background-color: $munsellBlue;
+  }
+}

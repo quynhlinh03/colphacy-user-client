@@ -1,0 +1,38 @@
+.branch-search {
+  border: 1px solid #f0f0f0;
+  padding: 0.4rem 0.6rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  button {
+    outline: none;
+    border: none;
+    background-color: #fff;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  input {
+    width: 21rem;
+    color: #657384;
+    font-size: 14px;
+    font-family: Be Vietnam Pro, sans-serif;
+    outline: none;
+    border: none;
+    &:focus-visible {
+      outline-offset: 0px;
+    }
+    &:focus {
+      cursor: pointer;
+    }
+  }
+  .branch-search-btn {
+    background-color: #ebf2f2;
+    color: #0093af;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+    border: none;
+  }
+}

@@ -1,0 +1,15 @@
+.list-product-title {
+  font-weight: 500;
+}
+.list-filter-product {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3rem 3rem;
+}
+.adv-filter {
+  background-color: #fff;
+  border-radius: 10px;
+  height: max-content;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}

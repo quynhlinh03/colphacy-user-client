@@ -1,0 +1,69 @@
+.header-ctn {
+  box-shadow: 0px 10px 50px rgb(0 0 0 / 10%);
+  color: $white;
+  .header-above-ctn {
+    background-color: #00439c;
+    .header-above {
+      min-width: 1090px;
+      width: 75%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      .download {
+        color: $white;
+      }
+      .advise {
+        align-items: center;
+        display: flex;
+        .iconPhoneFilled {
+          margin: 0 8px 2.5px;
+        }
+      }
+    }
+  }
+  .header-below-ctn {
+    border-bottom: 0.0625rem solid #e9ecef;
+    .header-below {
+      min-width: 1090px;
+      width: 75%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 0;
+      margin: auto;
+      .login-button:hover {
+        background-color: $munsellBlue;
+      }
+    }
+  }
+}
+// .mantine-19pz3dh {
+//   padding: 1rem 1rem 0em;
+// }
+// .mantine-1q36a81 {
+//   text-align: center;
+//   padding-bottom: 4rem;
+// }
+
+.modal {
+  text-align: center;
+  // padding-bottom: 4rem;
+}
+
+.menu-dropdown {
+  border: none;
+  padding: 0.6rem;
+  width: 13.5rem !important;
+  border-radius: 10px;
+  .menu-item {
+    padding: 1rem 0.8rem;
+    color: rgb(0, 0, 0, 0.9);
+  }
+}
+.menu-dropdown-cart {
+  border: none;
+  padding: 0.6rem;
+  border-radius: 10px;
+}
